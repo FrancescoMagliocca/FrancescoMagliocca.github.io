@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" type="text/css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>SaveToday</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="Save_today.png" alt="logo" class="logo">
+            
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">progetto</a></li>
+                    <li><a href="#">social</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+        <h1> PROGETTO UN'IDEA PER IL FUTURO</h1>
+        <p class="spiegazioneprogetto">Questo gioco è stato creato al fine di promuovere la previdenza complementare tra i giovani.<br> La finalità è avvicinare le nuove generazioni alla conoscenza delle varie opportunità di investimento ai fini previdenziali.<br> Il gioco consiste in una serie di domande che simuleranno le tue decisioni durante la vita.</p>
+
+        
+
+        <div id="container">
+
+            <h2 class="sottotitolo"> INIZIA QUI IL GIOCO</h2>
+
+            <p id="domanda">La prima domanda che ti pongo è una scelta che fanno tutti i lavoratori dipendenti. Vuoi che il tuo TFR rimanga in azienda o venga destinato in un fondo negoziale? <br>Selezionare la risposta cliccando sul pallino corrispondente ad essa.</p>
+            <form class="risposta">
+                <ul id="listaDiScelte">
+                    <li class="primascelta"><input type="radio" name="scelta" value="a" onclick="fn1()" id="rd1"><span id="spanPrimaScelta">decidi di lasciarlo in azienda devi sapere:<br> - Per le imprese con meno di 50 dipendenti verrà lasciato in azienda con un tasso di rendimento individuato dalla legge;<br> - Per le imprese con più di 50 dipendenti il TFR verrà trasferito in un fondo INPS ed avrà un rendimento assicurato.</span> </li>
+                    <li class="secondascelta"><input type="radio" name="scelta" value="b" onclick="fn1()" id="rd2"><span id="spanSecondaScelta">Se decidi di destinarlo in un fondo negoziale potrai scegliere in un fondo pensione garantito(obbligazioni) o più rischiosi(azionari). Nel corso del tempo potrai cambiare strumento del fondo pensione, ma non potrai tornare indietro alla scelta o ritirare i soldi anticipatamente salvo eccezzioni. In caso il lavoratore non si esprimesse su questa scelta, il TFR verrà destinato ad un fondo pensione garantito.</span> </li>
+                    
+                </ul>
+            </form>
+    
+        </div>
+
+        <p id="soluzione"></p>
+
+        <div id="ListaSoluzioni">
+            
+            <ul id="ListaSoluzioniPro">
+
+            </ul>
+
+            <ul id="ListaSoluzioniContro">
+
+            </ul>
+
+        </div>
+
+        <footer>
+                <div class="footer-content">
+                    <h5> Progetto un'idea per il futuro</h5>
+                     <img src="Save_today2.png" alt="logo2" class="logo2" width="30%">
+
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:franci.magliocca@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2021 LuigiAsquino & ElenaCostantini. designed by <span>FrancescoMagliocca</span></p>
+                </div>
+        </footer>
+        
+        <script src="Script.js"></script>
+</body>
+</html>
+
